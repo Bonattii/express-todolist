@@ -5,6 +5,10 @@ html {
   font-family: 'helvetica neue';
 }
 
+body {
+  height: 100vh;
+}
+
 h1 {
   color: #fff;
   padding: 10px;
@@ -27,7 +31,7 @@ h1 {
   min-height: 70px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid #e4e9fd;
 }
 
 .item:last-child {
@@ -49,11 +53,6 @@ p {
   font-size: 20px;
   font-weight: 200;
   color: #00204a;
-}
-
-form.item {
-  text-align: center;
-  margin-left: 20px;
 }
 
 button {
@@ -93,4 +92,9 @@ footer {
   color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
 }
